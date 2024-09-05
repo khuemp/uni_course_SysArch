@@ -1,0 +1,995 @@
+Evaluate project for student 2579036
+
+Evaluation Aufgabe 1.1
+-----------------------
+
+## Pattern 0110101011
+Run Mealy Test
+Okay
+Okay
+Okay
+Okay
+Okay
+Okay
+Okay
+Okay
+Okay
+Okay
+.5
+## Pattern 101
+Run Mealy Test
+Okay
+Wrong
+Okay
+.5
+## Pattern 010
+Run Mealy Test
+Okay
+Okay
+Okay
+1.0
+## Eval Testbench Input Stimulus
+Run Mealy Test
+VCD info: dumpfile MealyMaschine.vcd opened for output.
+RightInput
+RightInput
+RightInput
+RightInput
+RightInput
+RightInput
+RightInput
+RightInput
+RightInput
+1.5
+## Eval Testbench Input Stimulus (alternative, ignore if previous test passed)
+Run Mealy Test
+VCD info: dumpfile MealyMaschine.vcd opened for output.
+WrongInput
+RightInput
+WrongInput
+WrongInput
+WrongInput
+WrongInput
+WrongInput
+WrongInput
+RightInput
+1.5
+
+Evaluation Aufgabe 1.2
+-----------------------
+
+## Test random
+Test 0 / 1 = 0 R 0:
+Worked 1
+Test 0 / 2 = 0 R 0:
+Worked 1
+Test 0 / 5 = 0 R 0:
+Worked 1
+Test 0 / 7 = 0 R 0:
+Worked 1
+Test 0 / 16 = 0 R 0:
+Worked 1
+Test 0 / 42 = 0 R 0:
+Worked 1
+Test 0 / 3473 = 0 R 0:
+Worked 1
+Test 0 / 3355235 = 0 R 0:
+Worked 1
+Test 0 / 456345456 = 0 R 0:
+Worked 1
+Test 0 / 4294967295 = 0 R 0:
+Worked 1
+Test 1 / 1 = 1 R 0:
+Worked 1
+Test 1 / 2 = 0 R 1:
+Worked 1
+Test 1 / 5 = 0 R 1:
+Worked 1
+Test 1 / 7 = 0 R 1:
+Worked 1
+Test 1 / 16 = 0 R 1:
+Worked 1
+Test 1 / 42 = 0 R 1:
+Worked 1
+Test 1 / 3473 = 0 R 1:
+Worked 1
+Test 1 / 3355235 = 0 R 1:
+Worked 1
+Test 1 / 456345456 = 0 R 1:
+Worked 1
+Test 1 / 4294967295 = 0 R 1:
+Worked 1
+Test 2 / 1 = 2 R 0:
+Worked 1
+Test 2 / 2 = 1 R 0:
+Worked 1
+Test 2 / 5 = 0 R 2:
+Worked 1
+Test 2 / 7 = 0 R 2:
+Worked 1
+Test 2 / 16 = 0 R 2:
+Worked 1
+Test 2 / 42 = 0 R 2:
+Worked 1
+Test 2 / 3473 = 0 R 2:
+Worked 1
+Test 2 / 3355235 = 0 R 2:
+Worked 1
+Test 2 / 456345456 = 0 R 2:
+Worked 1
+Test 2 / 4294967295 = 0 R 2:
+Worked 1
+Test 5 / 1 = 5 R 0:
+Worked 1
+Test 5 / 2 = 2 R 1:
+Worked 1
+Test 5 / 5 = 1 R 0:
+Worked 1
+Test 5 / 7 = 0 R 5:
+Worked 1
+Test 5 / 16 = 0 R 5:
+Worked 1
+Test 5 / 42 = 0 R 5:
+Worked 1
+Test 5 / 3473 = 0 R 5:
+Worked 1
+Test 5 / 3355235 = 0 R 5:
+Worked 1
+Test 5 / 456345456 = 0 R 5:
+Worked 1
+Test 5 / 4294967295 = 0 R 5:
+Worked 1
+Test 8 / 1 = 8 R 0:
+Worked 1
+Test 8 / 2 = 4 R 0:
+Worked 1
+Test 8 / 5 = 1 R 3:
+Worked 1
+Test 8 / 7 = 1 R 1:
+Worked 1
+Test 8 / 16 = 0 R 8:
+Worked 1
+Test 8 / 42 = 0 R 8:
+Worked 1
+Test 8 / 3473 = 0 R 8:
+Worked 1
+Test 8 / 3355235 = 0 R 8:
+Worked 1
+Test 8 / 456345456 = 0 R 8:
+Worked 1
+Test 8 / 4294967295 = 0 R 8:
+Worked 1
+Test 42 / 1 = 42 R 0:
+Worked 1
+Test 42 / 2 = 21 R 0:
+Worked 1
+Test 42 / 5 = 8 R 2:
+Worked 1
+Test 42 / 7 = 6 R 0:
+Worked 1
+Test 42 / 16 = 2 R 10:
+Worked 1
+Test 42 / 42 = 1 R 0:
+Worked 1
+Test 42 / 3473 = 0 R 42:
+Worked 1
+Test 42 / 3355235 = 0 R 42:
+Worked 1
+Test 42 / 456345456 = 0 R 42:
+Worked 1
+Test 42 / 4294967295 = 0 R 42:
+Worked 1
+Test 3473 / 1 = 3473 R 0:
+Worked 1
+Test 3473 / 2 = 1736 R 1:
+Worked 1
+Test 3473 / 5 = 694 R 3:
+Worked 1
+Test 3473 / 7 = 496 R 1:
+Worked 1
+Test 3473 / 16 = 217 R 1:
+Worked 1
+Test 3473 / 42 = 82 R 29:
+Worked 1
+Test 3473 / 3473 = 1 R 0:
+Worked 1
+Test 3473 / 3355235 = 0 R 3473:
+Worked 1
+Test 3473 / 456345456 = 0 R 3473:
+Worked 1
+Test 3473 / 4294967295 = 0 R 3473:
+Worked 1
+Test 3355235 / 1 = 3355235 R 0:
+Worked 1
+Test 3355235 / 2 = 1677617 R 1:
+Worked 1
+Test 3355235 / 5 = 671047 R 0:
+Worked 1
+Test 3355235 / 7 = 479319 R 2:
+Worked 1
+Test 3355235 / 16 = 209702 R 3:
+Worked 1
+Test 3355235 / 42 = 79886 R 23:
+Worked 1
+Test 3355235 / 3473 = 966 R 317:
+Worked 1
+Test 3355235 / 3355235 = 1 R 0:
+Worked 1
+Test 3355235 / 456345456 = 0 R 3355235:
+Worked 1
+Test 3355235 / 4294967295 = 0 R 3355235:
+Worked 1
+Test 456345456 / 1 = 456345456 R 0:
+Worked 1
+Test 456345456 / 2 = 228172728 R 0:
+Worked 1
+Test 456345456 / 5 = 91269091 R 1:
+Worked 1
+Test 456345456 / 7 = 65192208 R 0:
+Worked 1
+Test 456345456 / 16 = 28521591 R 0:
+Worked 1
+Test 456345456 / 42 = 10865368 R 0:
+Worked 1
+Test 456345456 / 3473 = 131398 R 202:
+Worked 1
+Test 456345456 / 3355235 = 136 R 33496:
+Worked 1
+Test 456345456 / 456345456 = 1 R 0:
+Worked 1
+Test 456345456 / 4294967295 = 0 R 456345456:
+Worked 1
+Test 4294967295 / 1 = 4294967295 R 0:
+Worked 1
+Test 4294967295 / 2 = 2147483647 R 1:
+Worked 1
+Test 4294967295 / 5 = 858993459 R 0:
+Worked 1
+Test 4294967295 / 7 = 613566756 R 3:
+Worked 1
+Test 4294967295 / 16 = 268435455 R 15:
+Worked 1
+Test 4294967295 / 42 = 102261126 R 3:
+Worked 1
+Test 4294967295 / 3473 = 1236673 R 1966:
+Worked 1
+Test 4294967295 / 3355235 = 1280 R 266495:
+Worked 1
+Test 4294967295 / 456345456 = 9 R 187858191:
+Worked 1
+Test 4294967295 / 4294967295 = 1 R 0:
+Worked 1
+Done. 100 tests succeeded.
+## Test division by 0 according to algorithm
+Run Divider Test
+Aktuelle Punkte für Teilaufgabe: 4
+## Test multiple start signals
+Run Divider Test
+Aktuelle Punkte für Teilaufgabe: 5
+
+Evaluation Aufgabe 1.3
+-----------------------
+
+Run ALU Test
+Testing AND
+okay
+okay
+Testing OR
+okay
+okay
+Testing Addition
+okay
+okay
+okay
+Testing Subtraction
+okay
+okay
+okay
+okay
+okay
+okay
+Testing slt
+okay
+okay
+okay
+okay
+okay
+okay
+5.0 von 5.0, diese zählen 60% zur ALU Aufgabe
+Run Proc Testbench ../TestTemplates/korrektur/TestProgramme/Addition
+Register           1 = 00000009
+Register           2 = 00000004
+Register           3 = cccccccc
+Register           4 = cccccccc
+Register           5 = cccccccc
+Register           6 = cccccccc
+Register           7 = cccccccc
+Register           8 = cccccccc
+Register           9 = cccccccc
+Register          10 = cccccccc
+Register          11 = cccccccc
+Register          12 = cccccccc
+Register          13 = cccccccc
+Register          14 = cccccccc
+Register          15 = cccccccc
+Register          16 = cccccccc
+Register          17 = cccccccc
+Register          18 = cccccccc
+Register          19 = cccccccc
+Register          20 = cccccccc
+Register          21 = cccccccc
+Register          22 = cccccccc
+Register          23 = cccccccc
+Register          24 = cccccccc
+Register          25 = cccccccc
+Register          26 = cccccccc
+Register          27 = cccccccc
+Register          28 = cccccccc
+Register          29 = cccccccc
+Register          30 = cccccccc
+Register          31 = cccccccc
+1
+Run Proc Testbench ../TestTemplates/korrektur/TestProgramme/StoreLoad
+Register           1 = 12345678
+Register           2 = 00000008
+Register           3 = 0000000c
+Register           4 = 12345678
+Register           5 = cccccccc
+Register           6 = cccccccc
+Register           7 = cccccccc
+Register           8 = cccccccc
+Register           9 = cccccccc
+Register          10 = cccccccc
+Register          11 = cccccccc
+Register          12 = cccccccc
+Register          13 = cccccccc
+Register          14 = cccccccc
+Register          15 = cccccccc
+Register          16 = cccccccc
+Register          17 = cccccccc
+Register          18 = cccccccc
+Register          19 = cccccccc
+Register          20 = cccccccc
+Register          21 = cccccccc
+Register          22 = cccccccc
+Register          23 = cccccccc
+Register          24 = cccccccc
+Register          25 = cccccccc
+Register          26 = cccccccc
+Register          27 = cccccccc
+Register          28 = cccccccc
+Register          29 = cccccccc
+Register          30 = cccccccc
+Register          31 = cccccccc
+1
+Run Proc Testbench ../TestTemplates/korrektur/TestProgramme/Sltu
+Register           1 = 00000152
+Register           2 = 0000081c
+Register           3 = 00000001
+Register           4 = cccccccc
+Register           5 = cccccccc
+Register           6 = cccccccc
+Register           7 = cccccccc
+Register           8 = cccccccc
+Register           9 = cccccccc
+Register          10 = cccccccc
+Register          11 = cccccccc
+Register          12 = cccccccc
+Register          13 = cccccccc
+Register          14 = cccccccc
+Register          15 = cccccccc
+Register          16 = cccccccc
+Register          17 = cccccccc
+Register          18 = cccccccc
+Register          19 = cccccccc
+Register          20 = cccccccc
+Register          21 = cccccccc
+Register          22 = cccccccc
+Register          23 = cccccccc
+Register          24 = cccccccc
+Register          25 = cccccccc
+Register          26 = cccccccc
+Register          27 = cccccccc
+Register          28 = cccccccc
+Register          29 = cccccccc
+Register          30 = cccccccc
+Register          31 = cccccccc
+1
+Run Proc Testbench ../TestTemplates/korrektur/TestProgramme/Logical
+Register           1 = 12918bc1
+Register           2 = 914bfe42
+Register           3 = 10018a40
+Register           4 = 93dbffc3
+Register           5 = cccccccc
+Register           6 = cccccccc
+Register           7 = cccccccc
+Register           8 = cccccccc
+Register           9 = cccccccc
+Register          10 = cccccccc
+Register          11 = cccccccc
+Register          12 = cccccccc
+Register          13 = cccccccc
+Register          14 = cccccccc
+Register          15 = cccccccc
+Register          16 = cccccccc
+Register          17 = cccccccc
+Register          18 = cccccccc
+Register          19 = cccccccc
+Register          20 = cccccccc
+Register          21 = cccccccc
+Register          22 = cccccccc
+Register          23 = cccccccc
+Register          24 = cccccccc
+Register          25 = cccccccc
+Register          26 = cccccccc
+Register          27 = cccccccc
+Register          28 = cccccccc
+Register          29 = cccccccc
+Register          30 = cccccccc
+Register          31 = cccccccc
+1
+
+Evaluation Aufgabe 1.4
+-----------------------
+
+Run Proc Testbench ../TestTemplates/korrektur/TestProgramme/Konstanten
+Register           1 = 12345678
+Register           2 = cccccccc
+Register           3 = cccccccc
+Register           4 = cccccccc
+Register           5 = cccccccc
+Register           6 = cccccccc
+Register           7 = cccccccc
+Register           8 = cccccccc
+Register           9 = cccccccc
+Register          10 = cccccccc
+Register          11 = cccccccc
+Register          12 = cccccccc
+Register          13 = cccccccc
+Register          14 = cccccccc
+Register          15 = cccccccc
+Register          16 = cccccccc
+Register          17 = cccccccc
+Register          18 = cccccccc
+Register          19 = cccccccc
+Register          20 = cccccccc
+Register          21 = cccccccc
+Register          22 = cccccccc
+Register          23 = cccccccc
+Register          24 = cccccccc
+Register          25 = cccccccc
+Register          26 = cccccccc
+Register          27 = cccccccc
+Register          28 = cccccccc
+Register          29 = cccccccc
+Register          30 = cccccccc
+Register          31 = cccccccc
+1
+Run Proc Testbench ../TestTemplates/korrektur/TestProgramme/Lui
+Register           1 = 13570000
+Register           2 = cccccccc
+Register           3 = cccccccc
+Register           4 = cccccccc
+Register           5 = cccccccc
+Register           6 = cccccccc
+Register           7 = cccccccc
+Register           8 = cccccccc
+Register           9 = cccccccc
+Register          10 = cccccccc
+Register          11 = cccccccc
+Register          12 = cccccccc
+Register          13 = cccccccc
+Register          14 = cccccccc
+Register          15 = cccccccc
+Register          16 = cccccccc
+Register          17 = cccccccc
+Register          18 = cccccccc
+Register          19 = cccccccc
+Register          20 = cccccccc
+Register          21 = cccccccc
+Register          22 = cccccccc
+Register          23 = cccccccc
+Register          24 = cccccccc
+Register          25 = cccccccc
+Register          26 = cccccccc
+Register          27 = cccccccc
+Register          28 = cccccccc
+Register          29 = cccccccc
+Register          30 = cccccccc
+Register          31 = cccccccc
+1
+Run Proc Testbench ../TestTemplates/korrektur/TestProgramme/Ori
+Register           1 = abcd0000
+Register           2 = ffff8000
+Register           3 = cccccccc
+Register           4 = cccccccc
+Register           5 = cccccccc
+Register           6 = cccccccc
+Register           7 = cccccccc
+Register           8 = cccccccc
+Register           9 = cccccccc
+Register          10 = cccccccc
+Register          11 = cccccccc
+Register          12 = cccccccc
+Register          13 = cccccccc
+Register          14 = cccccccc
+Register          15 = cccccccc
+Register          16 = cccccccc
+Register          17 = cccccccc
+Register          18 = cccccccc
+Register          19 = cccccccc
+Register          20 = cccccccc
+Register          21 = cccccccc
+Register          22 = cccccccc
+Register          23 = cccccccc
+Register          24 = cccccccc
+Register          25 = cccccccc
+Register          26 = cccccccc
+Register          27 = cccccccc
+Register          28 = cccccccc
+Register          29 = cccccccc
+Register          30 = cccccccc
+Register          31 = cccccccc
+FAIL in ../TestTemplates/korrektur/TestProgramme/Ori: register           2 = ffff8000, expected abcd8000
+0
+
+Evaluation Aufgabe 1.5
+-----------------------
+
+Run Proc Testbench ../TestTemplates/korrektur/TestProgramme/TestBne
+Register           1 = cccccccc
+Register           2 = 00000163
+Register           3 = 00000163
+Register           4 = 00000017
+Register           5 = cccccccc
+Register           6 = cccccccc
+Register           7 = cccccccc
+Register           8 = 00000017
+Register           9 = 0000002a
+Register          10 = cccccccc
+Register          11 = cccccccc
+Register          12 = cccccccc
+Register          13 = cccccccc
+Register          14 = cccccccc
+Register          15 = cccccccc
+Register          16 = cccccccc
+Register          17 = cccccccc
+Register          18 = cccccccc
+Register          19 = cccccccc
+Register          20 = cccccccc
+Register          21 = cccccccc
+Register          22 = cccccccc
+Register          23 = cccccccc
+Register          24 = cccccccc
+Register          25 = cccccccc
+Register          26 = cccccccc
+Register          27 = cccccccc
+Register          28 = cccccccc
+Register          29 = cccccccc
+Register          30 = cccccccc
+Register          31 = cccccccc
+1
+Run Proc Testbench ../TestTemplates/korrektur/TestProgramme/TestBneNeg
+Register           1 = cccccccc
+Register           2 = 00000163
+Register           3 = 00000081
+Register           4 = 0000002a
+Register           5 = cccccccc
+Register           6 = cccccccc
+Register           7 = cccccccc
+Register           8 = 00000017
+Register           9 = 0000002a
+Register          10 = cccccccc
+Register          11 = cccccccc
+Register          12 = cccccccc
+Register          13 = cccccccc
+Register          14 = cccccccc
+Register          15 = cccccccc
+Register          16 = cccccccc
+Register          17 = cccccccc
+Register          18 = cccccccc
+Register          19 = cccccccc
+Register          20 = cccccccc
+Register          21 = cccccccc
+Register          22 = cccccccc
+Register          23 = cccccccc
+Register          24 = cccccccc
+Register          25 = cccccccc
+Register          26 = cccccccc
+Register          27 = cccccccc
+Register          28 = cccccccc
+Register          29 = cccccccc
+Register          30 = cccccccc
+Register          31 = cccccccc
+1
+
+Evaluation Aufgabe 1.6
+-----------------------
+
+## Teste Multiplikation
+Run Proc Testbench ../TestTemplates/korrektur/TestProgramme/Multiplikation
+Register           1 = a7b12f5e
+Register           2 = 8163d8c2
+Register           3 = 4397353c
+Register           4 = 54c1b060
+Register           5 = cccccccc
+Register           6 = cccccccc
+Register           7 = cccccccc
+Register           8 = cccccccc
+Register           9 = cccccccc
+Register          10 = cccccccc
+Register          11 = cccccccc
+Register          12 = cccccccc
+Register          13 = cccccccc
+Register          14 = cccccccc
+Register          15 = cccccccc
+Register          16 = cccccccc
+Register          17 = cccccccc
+Register          18 = cccccccc
+Register          19 = cccccccc
+Register          20 = cccccccc
+Register          21 = cccccccc
+Register          22 = cccccccc
+Register          23 = cccccccc
+Register          24 = cccccccc
+Register          25 = cccccccc
+Register          26 = cccccccc
+Register          27 = cccccccc
+Register          28 = cccccccc
+Register          29 = cccccccc
+Register          30 = cccccccc
+Register          31 = cccccccc
+1
+Run Proc Testbench ../TestTemplates/korrektur/TestProgramme/MultiplikationDelay
+Register           1 = a7b12f5e
+Register           2 = 8163d8c2
+Register           3 = 4397353c
+Register           4 = 54c1b060
+Register           5 = cccccccc
+Register           6 = cccccccc
+Register           7 = cccccccc
+Register           8 = cccccccc
+Register           9 = cccccccc
+Register          10 = cccccccc
+Register          11 = cccccccc
+Register          12 = cccccccc
+Register          13 = cccccccc
+Register          14 = cccccccc
+Register          15 = cccccccc
+Register          16 = cccccccc
+Register          17 = cccccccc
+Register          18 = cccccccc
+Register          19 = cccccccc
+Register          20 = cccccccc
+Register          21 = cccccccc
+Register          22 = cccccccc
+Register          23 = cccccccc
+Register          24 = cccccccc
+Register          25 = cccccccc
+Register          26 = cccccccc
+Register          27 = cccccccc
+Register          28 = cccccccc
+Register          29 = cccccccc
+Register          30 = cccccccc
+Register          31 = cccccccc
+1
+## Teste auf vertauschte HI/LO Register, Ausgaben sind zu ignorieren wenn voriger Test durchläuft
+Run Proc Testbench ../TestTemplates/korrektur/TestProgramme/MultiplikationSwap
+Register           1 = a7b12f5e
+Register           2 = 8163d8c2
+Register           3 = 4397353c
+Register           4 = 54c1b060
+Register           5 = cccccccc
+Register           6 = cccccccc
+Register           7 = cccccccc
+Register           8 = cccccccc
+Register           9 = cccccccc
+Register          10 = cccccccc
+Register          11 = cccccccc
+Register          12 = cccccccc
+Register          13 = cccccccc
+Register          14 = cccccccc
+Register          15 = cccccccc
+Register          16 = cccccccc
+Register          17 = cccccccc
+Register          18 = cccccccc
+Register          19 = cccccccc
+Register          20 = cccccccc
+Register          21 = cccccccc
+Register          22 = cccccccc
+Register          23 = cccccccc
+Register          24 = cccccccc
+Register          25 = cccccccc
+Register          26 = cccccccc
+Register          27 = cccccccc
+Register          28 = cccccccc
+Register          29 = cccccccc
+Register          30 = cccccccc
+Register          31 = cccccccc
+FAIL in ../TestTemplates/korrektur/TestProgramme/MultiplikationSwap: register           3 = 4397353c, expected 54c1b060
+0
+Run Proc Testbench ../TestTemplates/korrektur/TestProgramme/MultiplikationDelaySwap
+Register           1 = a7b12f5e
+Register           2 = 8163d8c2
+Register           3 = 4397353c
+Register           4 = 54c1b060
+Register           5 = cccccccc
+Register           6 = cccccccc
+Register           7 = cccccccc
+Register           8 = cccccccc
+Register           9 = cccccccc
+Register          10 = cccccccc
+Register          11 = cccccccc
+Register          12 = cccccccc
+Register          13 = cccccccc
+Register          14 = cccccccc
+Register          15 = cccccccc
+Register          16 = cccccccc
+Register          17 = cccccccc
+Register          18 = cccccccc
+Register          19 = cccccccc
+Register          20 = cccccccc
+Register          21 = cccccccc
+Register          22 = cccccccc
+Register          23 = cccccccc
+Register          24 = cccccccc
+Register          25 = cccccccc
+Register          26 = cccccccc
+Register          27 = cccccccc
+Register          28 = cccccccc
+Register          29 = cccccccc
+Register          30 = cccccccc
+Register          31 = cccccccc
+FAIL in ../TestTemplates/korrektur/TestProgramme/MultiplikationDelaySwap: register           3 = 4397353c, expected 54c1b060
+0
+## Teste auf nur LO Register, Ausgaben sind zu ignorieren wenn voriger Test durchläuft
+Run Proc Testbench ../TestTemplates/korrektur/TestProgramme/MultiplikationOnlyLO
+Register           1 = a7b12f5e
+Register           2 = 8163d8c2
+Register           3 = 4397353c
+Register           4 = cccccccc
+Register           5 = cccccccc
+Register           6 = cccccccc
+Register           7 = cccccccc
+Register           8 = cccccccc
+Register           9 = cccccccc
+Register          10 = cccccccc
+Register          11 = cccccccc
+Register          12 = cccccccc
+Register          13 = cccccccc
+Register          14 = cccccccc
+Register          15 = cccccccc
+Register          16 = cccccccc
+Register          17 = cccccccc
+Register          18 = cccccccc
+Register          19 = cccccccc
+Register          20 = cccccccc
+Register          21 = cccccccc
+Register          22 = cccccccc
+Register          23 = cccccccc
+Register          24 = cccccccc
+Register          25 = cccccccc
+Register          26 = cccccccc
+Register          27 = cccccccc
+Register          28 = cccccccc
+Register          29 = cccccccc
+Register          30 = cccccccc
+Register          31 = cccccccc
+1
+
+Evaluation Aufgabe 1.7
+-----------------------
+
+## Teste jump an link
+Run Proc Testbench ../TestTemplates/korrektur/TestProgramme/JumpAndLink
+Register           1 = cccccccc
+Register           2 = cccccccc
+Register           3 = cccccccc
+Register           4 = cccccccc
+Register           5 = cccccccc
+Register           6 = cccccccc
+Register           7 = cccccccc
+Register           8 = cccccccc
+Register           9 = cccccccc
+Register          10 = cccccccc
+Register          11 = cccccccc
+Register          12 = cccccccc
+Register          13 = cccccccc
+Register          14 = cccccccc
+Register          15 = cccccccc
+Register          16 = cccccccc
+Register          17 = cccccccc
+Register          18 = cccccccc
+Register          19 = cccccccc
+Register          20 = cccccccc
+Register          21 = cccccccc
+Register          22 = cccccccc
+Register          23 = cccccccc
+Register          24 = cccccccc
+Register          25 = cccccccc
+Register          26 = cccccccc
+Register          27 = cccccccc
+Register          28 = cccccccc
+Register          29 = cccccccc
+Register          30 = cccccccc
+Register          31 = 0040001c
+1
+## Teste Randfälle, Ausgaben sind zu ignorieren wenn voriger Test durchläuft
+Run Proc Testbench ../TestTemplates/korrektur/TestProgramme/JumpAndLinkEarly
+Register           1 = cccccccc
+Register           2 = cccccccc
+Register           3 = cccccccc
+Register           4 = cccccccc
+Register           5 = cccccccc
+Register           6 = cccccccc
+Register           7 = cccccccc
+Register           8 = cccccccc
+Register           9 = cccccccc
+Register          10 = cccccccc
+Register          11 = cccccccc
+Register          12 = cccccccc
+Register          13 = cccccccc
+Register          14 = cccccccc
+Register          15 = cccccccc
+Register          16 = cccccccc
+Register          17 = cccccccc
+Register          18 = cccccccc
+Register          19 = cccccccc
+Register          20 = cccccccc
+Register          21 = cccccccc
+Register          22 = cccccccc
+Register          23 = cccccccc
+Register          24 = cccccccc
+Register          25 = cccccccc
+Register          26 = cccccccc
+Register          27 = cccccccc
+Register          28 = cccccccc
+Register          29 = cccccccc
+Register          30 = cccccccc
+Register          31 = 0040001c
+FAIL in ../TestTemplates/korrektur/TestProgramme/JumpAndLinkEarly: register          31 = 0040001c, expected 00400018
+0
+Run Proc Testbench ../TestTemplates/korrektur/TestProgramme/JumpAndLinkLate
+Register           1 = cccccccc
+Register           2 = cccccccc
+Register           3 = cccccccc
+Register           4 = cccccccc
+Register           5 = cccccccc
+Register           6 = cccccccc
+Register           7 = cccccccc
+Register           8 = cccccccc
+Register           9 = cccccccc
+Register          10 = cccccccc
+Register          11 = cccccccc
+Register          12 = cccccccc
+Register          13 = cccccccc
+Register          14 = cccccccc
+Register          15 = cccccccc
+Register          16 = cccccccc
+Register          17 = cccccccc
+Register          18 = cccccccc
+Register          19 = cccccccc
+Register          20 = cccccccc
+Register          21 = cccccccc
+Register          22 = cccccccc
+Register          23 = cccccccc
+Register          24 = cccccccc
+Register          25 = cccccccc
+Register          26 = cccccccc
+Register          27 = cccccccc
+Register          28 = cccccccc
+Register          29 = cccccccc
+Register          30 = cccccccc
+Register          31 = 0040001c
+FAIL in ../TestTemplates/korrektur/TestProgramme/JumpAndLinkLate: register          31 = 0040001c, expected 00400020
+0
+## Teste jump register
+Run Proc Testbench ../TestTemplates/korrektur/TestProgramme/JumpRegister
+Register           1 = 00000028
+Register           2 = 00000019
+Register           3 = cccccccc
+Register           4 = cccccccc
+Register           5 = cccccccc
+Register           6 = cccccccc
+Register           7 = cccccccc
+Register           8 = cccccccc
+Register           9 = cccccccc
+Register          10 = cccccccc
+Register          11 = cccccccc
+Register          12 = cccccccc
+Register          13 = cccccccc
+Register          14 = cccccccc
+Register          15 = cccccccc
+Register          16 = cccccccc
+Register          17 = cccccccc
+Register          18 = cccccccc
+Register          19 = cccccccc
+Register          20 = cccccccc
+Register          21 = cccccccc
+Register          22 = cccccccc
+Register          23 = cccccccc
+Register          24 = cccccccc
+Register          25 = cccccccc
+Register          26 = cccccccc
+Register          27 = cccccccc
+Register          28 = cccccccc
+Register          29 = cccccccc
+Register          30 = cccccccc
+Register          31 = 00000008
+1
+
+Evaluation Aufgabe 1.8
+-----------------------
+
+Run Proc Testbench ../TestTemplates/korrektur/TestProgramme/DivisionSoftCond
+Register           1 = 0000007b
+Register           2 = 000001c8
+Register           3 = xxxxxxxx
+Register           4 = xxxxxxxx
+Register           5 = cccccccc
+Register           6 = cccccccc
+Register           7 = cccccccc
+Register           8 = cccccccc
+Register           9 = cccccccc
+Register          10 = cccccccc
+Register          11 = cccccccc
+Register          12 = cccccccc
+Register          13 = cccccccc
+Register          14 = cccccccc
+Register          15 = cccccccc
+Register          16 = cccccccc
+Register          17 = cccccccc
+Register          18 = cccccccc
+Register          19 = cccccccc
+Register          20 = cccccccc
+Register          21 = cccccccc
+Register          22 = cccccccc
+Register          23 = cccccccc
+Register          24 = cccccccc
+Register          25 = cccccccc
+Register          26 = cccccccc
+Register          27 = cccccccc
+Register          28 = cccccccc
+Register          29 = cccccccc
+Register          30 = cccccccc
+Register          31 = cccccccc
+FAIL in ../TestTemplates/korrektur/TestProgramme/DivisionSoftCond: register           3 = xxxxxxxx, expected 00000003
+0
+
+Evaluation Aufgabe 1.9
+-----------------------
+
+Run Proc Testbench ../TestTemplates/korrektur/TestProgramme/DivisionStalling
+Register           1 = 0000007b
+Register           2 = 000001c8
+Register           3 = xxxxxxxx
+Register           4 = xxxxxxxx
+Register           5 = cccccccc
+Register           6 = cccccccc
+Register           7 = cccccccc
+Register           8 = cccccccc
+Register           9 = cccccccc
+Register          10 = cccccccc
+Register          11 = cccccccc
+Register          12 = cccccccc
+Register          13 = cccccccc
+Register          14 = cccccccc
+Register          15 = cccccccc
+Register          16 = cccccccc
+Register          17 = cccccccc
+Register          18 = cccccccc
+Register          19 = cccccccc
+Register          20 = cccccccc
+Register          21 = cccccccc
+Register          22 = cccccccc
+Register          23 = cccccccc
+Register          24 = cccccccc
+Register          25 = cccccccc
+Register          26 = cccccccc
+Register          27 = cccccccc
+Register          28 = cccccccc
+Register          29 = cccccccc
+Register          30 = cccccccc
+Register          31 = cccccccc
+FAIL in ../TestTemplates/korrektur/TestProgramme/DivisionStalling: register           3 = xxxxxxxx, expected 00000003
+0
